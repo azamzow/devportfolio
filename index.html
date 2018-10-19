@@ -72,7 +72,7 @@
                     <h2 class="heading">About Me</h2>
                 </div>
                 <div class="col-md-8">
-                    <p align="justify">
+                    <p style="text-align: justify">
                         I graduated from Sam Houston State University in May 2018 as a student athlete with a degree in Computer Science. 
                         I later became an intern for Feniex Industries where I worked with the engineering and marketing departments. 
                         I am a full stack software developer currently seeking a career opportunity where I can add value to a company 
@@ -95,24 +95,27 @@
         <div id="experience-timeline">
             <div data-date="June 2018 – September 2018">
                 <h3>Feniex Industries</h3>
-                <h4>Software Development Intern</h4>
+                <h4>Software Developer Intern</h4>
                 <p>
                     Feniex is a manufacturing company that produces light and sound equipment for emergency, off road, and public work vehicles. Their
                     products apply to police, fire, EMS, construction vehicles and more.<br />
                     I started my internship working with the engineering department. Using React Native, I repaired an abandoned application, then updated it to have 
-                    the correct products and features for company and customer use.
+                    the correct products and features for company and customer use.(Read more about the App below)
                     After completing the app, I joined the marketing department where I assisted the web team in developing a brand new platform for their website called Build-A-Bar
                     (Read more about Build-A-Bar below). This web application was built using Angular for the front-end and Druple for the back-end. 
                 </p>
             </div>
 
-            <!-- <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
+            <div data-date="September 2018 – Present">
+                <h3>Feniex Industries</h3>
+                <h4>Software Developer</h4>
                 <p>
-                    text about job
+                    Joining the web team full time, the company was at a changing point. Feniex was on its way to becoming full ecommerce, instead of working with dealers. 
+                    That being said, my first project was reskinning the current 60 product pages on the website to resemble direct to consumer. After completing the new changes, I am 
+                    then going to implement FedEx's software API tracking system into the site so customers can track orders. In the future I plan on working with new products
+                    such as Body Cameras and Firearms and working with their software. 
                 </p>
-            </div> -->
+            </div>
 
             <!-- <div data-date="September 2015 – September 2016">
                 <h3>Employer Name</h3>
@@ -132,7 +135,7 @@
             <span class="education-date">July 2013 - May 2018</span>
             <h4>Bachelor of Science in Computer Science</h4>
             <p>
-                - Computer Science major with a concentration of Information Systems, with a Kinesiology minor.</br>
+                - Computer Science major with a concentration of Information Systems, with a Kinesiology minor.<br/>
                 - Certificate of Achievement Deans List Spring 2014.<br />
                 - Certificate of Achievement SHACS Hardest Worker Spring 2016.<br />
                 - Memeber of the Sam Houston Association of Computer Science (SHACS) team. <br />
@@ -179,6 +182,34 @@
                 <div class="project shadow-large">
                     <div class="project-image">
                         <a href="#"></a>
+                            <img src="images/ic_launcher.png" style="padding:20px; height: 315px; width: 325px;" />
+                            <!-- height: 315px; width: 325px; -->
+                        </a>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Feniex Module Programmer</h3>
+                        <p>
+                            The Feniex Module Programmer helps users program Feniex lights via bluetooth. This app requires the purchase of a Feniex Module Programmer (hardware) and also at least
+                            one Feniex light product to function. 
+                            Once the user is bluetooth connected to the module programmer, you can test and confirm multiple lighting pattern switches on ones light product.
+                            It is Android and IOS compatible.
+                        </p>
+                        <p>
+                            As I took on this project, it started as a challenge. Working in someone else's code with their style was struggle. However, after I 
+                            quickly caught on and was able to debug the app and find out the core of the issues. The IOS and Android application both call React Native with Redux states and some of the states were not
+                            being used correctly. Once I solved that issue, I added a settings button so the user can have more control over the app. Lastly, I added new products so the user can have the latest version of usability.
+                        </p>
+                        <a target="_blank" href="https://itunes.apple.com/us/app/feniex-sync/id1348078706?ls=1&mt=8">View Project IOS</a>
+                        <a target="_blank" href="https://play.google.com/store/apps/details?id=com.fusionprogrammer">View Project Android</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <a href="#"></a>
                             <img src="images/feniex.png" style="padding:20px; height: 315px; width: 325px;" />
                             <!-- height: 315px; width: 325px; -->
                         </a>
@@ -192,11 +223,11 @@
                             The user can then 'build a bar'. Build-A-Bar is unique because no other emergency lighting company provides customization like this.
                         </p>
                         <p>
-                            This project was built using Angular, JavaScript, and HTML with SASS and CSS. Each bar's information is stored using an object. Once an object is created it gets pushed in an array.
+                            This project was built using Angular, JavaScript in the frontend, and Drupal for the framework.  Each bar's information is stored using an object. Once an object is created it gets pushed in an array.
                             When the bar is complete, the array is sorted using bubble sort and is sent to the manufacturing department. The user also has the option to download a PDF of their 
                             built bar. This ensures that each order is accurate. 
                         </p>
-                        <a target="_blank" href="https://www.feniexindustries.com/buildbar/fusion-interior-passenger-lightbar">Go to link to view project, then click "Customize"</a>
+                        <a target="_blank" href="https://www.feniexindustries.com/buildbar/fusion-49-gpl">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
